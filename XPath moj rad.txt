@@ -1,0 +1,112 @@
+
+
+//a[@href="/login"]
+//div[@class="row"]
+//a[@href="/" and @class="navbar-brand"]
+//a[@href="/" or @class="navbar-brand"]
+//div[@class="col-sm-6 text-center"]/a[@href="/login"]
+
+
+//div[contains(@id, "default-slidebar-element")]/parent::div
+//div[starts-with(@id, "default-slidebar-element")]parent::div
+//div[@id="default-slidebar-element-react"]/preceding::div
+//div[@id="default-slidebar-element-react"]/preceding-sibling::div
+
+
+//a[@class="article-reading-time"]
+(//a[@class="article-reading-time"])/[4]
+//a[@class="tag"]
+
+
+//span[@id'reaction-number-readinglist']
+//span[@id'reaction-number-readinglist']/text()
+concat(//span[@id='reaction-number-like]/text(), //span[@id='reaction-number-unicorn']/text())
+
+
+count(//div[starts-with(@id,"comment-node")])
+
+
+number(//span[@id='reaction-number-readinglist']/text())
+number(substring-after(//table[@id="table1"]/tbody/tr[1]/td[4]/text(), "$"))
+
+
+//div[contains(@class, "owner")]/preceding-sibling::div[1]
+
+
+tbody/tr[6]/td[3]/text()
+(//div[contains(@class, "large-10 columns")]//tbody/tr)[6]/td[3]
+
+
+//table[@id="table1"]/tbody//tr[1]/td[3]/text()
+
+
+count(//div[starts-with(@id,"comment-node")])
+count(//div[@class="inner-comment"])
+
+
+substring-before(//table[@id="table1"]/tbody//tr[1]/td[3]/text(), "@")
+substring-after(//table[@id="table1"]/tbody//tr[1]/td[3]/text(), "@")
+
+
+substring(//table[@id="table1"]/tbody//tr[1]/td[4]/text(), 2)
+substring(//table[@id="table1"]/tbody//tr[1]/td[3]/text(), 1, 6)
+
+
+string-lenght(//table[@id="table1"]/tbody//tr[1]/td[3]/text())
+
+
+//div[contains(@class, "col-sm-6")]/a[@href="/login"]
+//div[contains(@class, "sm-6")]/a[@href="/login"]
+//div[contains(@class, "6")]/a[@href="/login"]
+//div[contains(@class, "6")]/a[contains(@href, "login")]
+
+
+//select[@name="quantity"]/../label/folloving::p
+
+
+(//input[@type="text"])[3]
+//table/tbody/tr[8]
+//td[text()="username40647"]
+//li[@data-id="275119"]
+//h3[contains(text(), "for you")]
+//h3[contains(text(), "for you")]/parent::div/div[@lass="grid-view"]/ul/li[5]
+
+
+//a[contains(@href, "/") and contains (@class, "navbar-brand")]
+//a[(contains(@href, "/login") or contains (@class, "navbar-brand")]
+//a[(contains(@href, "/") or contains(@class, "Xnavbar-brand")) and contains(@class, "navbar-brand")]
+//a[starts-with(@href, "/")]
+//a[starts-with(@class, "col")]
+//a[text()=@Sign in]
+//a[contains(text(), "Sign"]
+//a[@href="/"]parent::div
+
+
+//div[@class="container"]//parent::div
+
+
+//select[@name="quantity"]/folowing::option
+//select[@name="quantity"]/../label/folowing::p
+//select[@name="quantity"]/../label/child::option
+
+//li[@data-id="275147"]
+
+//p[@clas="text-center"]/child::label
+
+
+//from/child::input[@value="2" and @type="hidden"]
+
+//select[@name="quantity"]/folprecedinging::label
+
+
+//label/following-sibling::select[@name]"quantity"]
+
+
+//input[@value="4"]/following-sibling::p
+
+
+//td[text()="username406477"]
+//td[text()="username406477"]/parent::tr
+//td[text()="username406477"]/parent::tr[4]
+
+
